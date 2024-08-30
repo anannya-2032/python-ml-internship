@@ -1,0 +1,5 @@
+file1= open('C:/Users/dell/Desktop/python ml internship/demo.txt', "r")
+file2=open('C:/Users/dell/Desktop/python ml internship/textfile2.txt',"w")
+lst1=file1.readlines()
+file2.writelines(lst1)
+file2.close()
